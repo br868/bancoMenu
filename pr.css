@@ -1,0 +1,120 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+.header{
+	font-family:aria, hervetica, sans-serif;
+	margin:auto;
+	width:700px;
+	
+}
+#bancologo{	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	
+}
+
+#logo_despues_menu{
+	 display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 100%;
+   
+	
+}
+#logo2{
+	width:600px;
+	height:300px;
+	text-decoration:none;
+}
+
+
+
+ul, ol{
+	list-style:none;/*se quitaron las vineta de la lista*/
+}
+
+.nav  li a{/* dentro menu principal*/
+	background:#e67e22;
+	color:black; /* color de item*/
+	text-decoration:none;/* quita enlace*/
+	padding:13px 15px;
+	display:block;/* todos dentro de un block*/
+	width: 110px;
+	margin: 0%;
+	 
+	
+}
+
+.nav li a:hover{/* marca submenu principal*/
+	background-color:#DAF7A6 ;
+}
+
+.nav > li{/* li directo dentro de nav */
+	float:left;
+	
+}
+.nav li ul {/* se ocultan  submenu principal*/
+	display:none;
+	position:absolute;/*estara conformr al menu */
+	min-width:140px;
+}
+
+.nav li:hover > ul {/*  directo de ul aparece los submenu principal*/
+	display:block;
+}
+
+.nav  li ul li{/*poner submenu  al lado de submenu*/
+	position:relative;
+}
+.nav li ul li ul{
+	right:-140px;
+	top:0px;
+}
+
+
+#seccion {
+	float: left;
+	width: 660px;
+	margin: 20px;
+	padding:40px;
+	display:flex;
+	align-content:center;
+	background: white;
+	flex-direction: column;
+   }
+#columna {
+	float: left;
+	width: 320px;
+	margin: 30px 0px;
+	padding: 20px;
+	background:white ;
+   }
+
+#pie {
+	clear: both;
+	text-align: center;
+    padding: 20px;
+    border-top: 2px solid #48c9b0;
+   }
+   
+   
+article {
+	background: #7dcea0;
+	border: 1px solid #999999;
+	padding: 20px;
+	margin-bottom: 15px;
+	border-right:3px solid black;
+   }
+   
+article footer {
+	text-align: right;
+   }
+   
+
+figcaption {
+	font: italic 14px verdana, sans-serif;
+}
